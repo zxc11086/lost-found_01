@@ -1,0 +1,10 @@
+{
+    "usingComponents": {
+        "SearchInput":"../../components/SearchInput/SearchInput"
+    },
+    "navigationBarTitleText": "首页",
+    "onReachBottomDistance": 200,
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#86E3CE",
+    "backgroundTextStyle": "dark"
+}

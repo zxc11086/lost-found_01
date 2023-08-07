@@ -1,0 +1,7 @@
+<form bindsubmit="formSubmit">
+    <view>请输入学号</view>
+    <input name="student_no" type='string' value='{{student_no}}' bindblur='student_no'>请输入学号</input>
+    <view>请输入密码</view>
+    <input name="password" type='string' value='{{password}}' bindblur='password'></input>
+    <button form-type='submit' class='sureRelease'>登录</button>
+</form>

@@ -1,0 +1,17 @@
+<view class="swiper" wx:if="{{myopenid!=''}}">
+        <swiper autoplay indicator-dots circular class="swiper-container" indicator-active-color="white" style="height:{{Height}}px"> 
+            <swiper-item wx:for="{{photoUrl}}" wx:key="id">
+                <image mode="widthFix" src="{{item}}" class="object" bindload="getHeight"  bindtap='clickImg'></image>
+            </swiper-item>   
+        </swiper>
+        <view class="information">
+            <view>发布者：</view>
+            <view class="publisher" >
+                <view class="info">{{name}}</view>
+                <view class="info">{{student_no}}</view>
+            </view>
+            <view >商品名称：{{title}}</view>
+            <view >商品详情：{{info}}</view>
+            <view class="Notice">请企业微信联系该同学</view>
+        </view>
+</view>

@@ -1,0 +1,13 @@
+<view>
+    <SearchInput> </SearchInput>
+    <!--轮播图-->
+    <view class="swiper">
+        <swiper autoplay indicator-dots circular indicator-active-color="white">
+            <swiper-item wx:for="{{swiperList}}" wx:key="id">
+                <image  src="{{item}}" mode="widthFix"></image>
+            </swiper-item>   
+        </swiper>
+    </view>
+    <button bindtap="gotoLost">寻物启事</button>
+    <button bindtap="gotoFound">失物招领</button>
+</view>

@@ -1,0 +1,8 @@
+.swiper swiper {
+  width: 800rpx;
+  height: 500rpx;
+}
+.swiper swiper image {
+  width: 100%;
+  height: 100%;
+}

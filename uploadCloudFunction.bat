@@ -1,0 +1,1 @@
+"D:\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-6gevrsnyc0bd63e0 --n quickstartFunctions --r --project "C:\Users\30310\Desktop\小程序\失物招领\lost&found_01" --report_first --report
